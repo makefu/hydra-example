@@ -1,5 +1,7 @@
 { ... }:
 let
   pkgs = (import <nixpkgs> {});
-in
-  pkgs.hello
+in {
+  hello = pkgs.hello;
+}
+  
